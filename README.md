@@ -5,7 +5,7 @@
 
 ## Demonstração de corte de imagem
 <p align="center">
-  <img width="300" height="300" src="https://github.com/chrisleo-usa/Gifs/blob/master/Image%20Crop/Image%20Crop.gif">
+  <img width="400" height="400" src="https://github.com/chrisleo-usa/Gifs/blob/master/Image%20Crop/Image%20Crop.gif">
 </p>
 
 ## Getting started
