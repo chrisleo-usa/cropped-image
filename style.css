@@ -12,7 +12,6 @@
 
 :root {
     --bg: #130f0d;
-    --orange: #fd951f;
     --brown-opaque: rgba(250, 152, 5, 0.139);
     --white: #f0f0f9;
     --green: hsl(98 100% 62%);
@@ -26,16 +25,13 @@
     box-sizing: border-box;
 }
 
-*, button, input {
-    font-family: 'Roboto', sans-serif;
-}
-
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--bg);
     color: var(--white);
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -43,13 +39,14 @@ header {
     padding-bottom: 4rem;
 
     text-align: center;
-    color: var(--orange);
+    color: var(--white);
 
     animation: up 0.4s;
 }
 
 header p {
-    font-family: monospace;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
 }
 
 main {
@@ -67,7 +64,7 @@ footer {
 }
 
 footer::after {
-    content: "Feito com ♥️ por Mayk Brito";
+    content: "Made with ♥️ by Christopher Alves";
     opacity: 0.6;
     font-size: 0.8rem;
 }
@@ -86,18 +83,20 @@ button {
   font-size: 1.2rem;
   font-weight: normal;
 
-  border: none;
+  border: 2px solid var(--white);
   border-radius: 0.4rem;
 
-  background: var(--orange);
+  background: var(--bg);
 
-  color: var(--bg);
+  color: var(--white);
+  transition: all .3s;
 
   cursor: pointer;
 }
 
 button:hover {
-    transform: translate(1px, 1px);
+    background: var(--white);
+    color: var(--bg)
 }
 
 button + button {
@@ -123,11 +122,6 @@ img {
   position: fixed;
   display: none;
   border: 2px dashed var(--green);
-
-  /* top: 0;
-  left: 0;
-  width: 200px;
-  height: 200px; */
 }
 
 #crop-image {
