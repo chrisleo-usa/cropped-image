@@ -3,9 +3,9 @@
 #### Image Crop é uma aplicação simples para corte de imagem. 
 
 
-## Demonstração cadastro instrutor
+## Demonstração de corte de imagem
 <p align="center">
-  <img width="500" height="500" src="https://github.com/chrisleo-usa/Gifs/blob/master/Image%20Crop/Image%20Crop.gif">
+  <img width="300" height="300" src="https://github.com/chrisleo-usa/Gifs/blob/master/Image%20Crop/Image%20Crop.gif">
 </p>
 
 ## Getting started
